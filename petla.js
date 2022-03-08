@@ -35,9 +35,51 @@
 // }
 
 // zadanie 6
-const array3 = [true, false, false, true, false, true, false, false,]
-for (i = 0; i < array3.length; i++){
-    if(array3[i] === true){console.log(1)} else {console.log(0)}
-}
+// const array3 = [true, false, false, true, false, true, false, false,]
+// for (i = 0; i < array3.length; i++){
+//     if(array3[i] === true){console.log(1)} else {console.log(0)}
+// }
 
-const array4 = ["Styczeń 22", "Luty 15", "Luty 12", "Marzec 4", "Marzec 8", "Marzec 9"]
+ 
+// zadanie 7 do rozgryzienia !!!!!!
+// const sentence = 'The quick brown fox jumps over the lazy dog.';
+
+// const word = 'jumps';
+
+// console.log(`The word "${word}" ${sentence.includes(word) ? 'is' : 'is not'} in the sentence`);
+// expected output: "The word "fox" is in the sentence"
+
+
+
+// const array4 = ["Styczeń 22", "Luty 15", "Luty 12", "Marzec 4", "Marzec 8", "Marzec 9"]
+// function month(value) {
+//   return value == "Styczeń";
+// }
+
+// let filtered = array4.filter(month);
+// // console.log(filtered)
+
+
+// for (i = 0; i < array4.length; i++){
+//    console.log(array4.includes(filtered) ? 1 :0)
+// }
+
+// zadanie 8
+
+// let num = 256985354
+// const arr = []
+// for (i = 0; i<=num; i++){
+//    if( num % i == 0){arr.push(i)}
+// }
+// console.log(arr)
+
+// zadanie 9
+
+let start = 2
+let end = 122
+let sum = 0
+
+for (i = start; i <= end; i++){
+    if(i % 2 === 0){sum+i}
+}
+console.log(sum)
