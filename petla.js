@@ -41,7 +41,7 @@
 // }
 
  
-// zadanie 7 do rozgryzienia !!!!!!
+// zadanie 7
 // const sentence = 'The quick brown fox jumps over the lazy dog.';
 
 // const word = 'jumps';
@@ -51,18 +51,17 @@
 
 
 
-// const array4 = ["Styczeń 22", "Luty 15", "Luty 12", "Marzec 4", "Marzec 8", "Marzec 9"]
-// function month(value) {
-//   return value == "Styczeń";
-// }
+// const array4 = ["Styczeń 22", "Luty", "Luty", "Marzec 4", "Marzec 8", "Marzec 9",]
 
-// let filtered = array4.filter(month);
-// // console.log(filtered)
-
-
+// let x=0
+// const filter = "a"
 // for (i = 0; i < array4.length; i++){
-//    console.log(array4.includes(filtered) ? 1 :0)
+//     if (array4[i].includes(filter)== true) {
+//        x += 1
+//    }
 // }
+// console.log(x)
+
 
 // zadanie 8
 
@@ -75,11 +74,90 @@
 
 // zadanie 9
 
-let start = 2
-let end = 122
-let sum = 0
+// let start = 5
+// let end = 15
+// let sum = 0
 
-for (i = start; i <= end; i++){
-    if(i % 2 === 0){sum+i}
-}
-console.log(sum)
+// for (i = start; i <= end; i++){
+//     if (i % 2 === 0) {
+//         sum += i
+//     }
+// }
+// console.log(sum)
+
+// zadanie 10
+
+// const arr = [[4, 5], [6, 7], [8, 9]];
+
+// for (i = 0; i < arr.length; i++) {
+//     for (j = 0; j < arr[i].length; j++) {
+//         console.log(arr[i][j])
+//     }
+// }
+
+//lumber ile potrzeba by podnieśc o x poziomów end tj ilość poziomów -1
+
+// let end = 5
+// let sum = 586.1
+// let a=sum
+
+// for (i = 0; i < end; i++) {
+//     a += (sum += 0.09403*sum)
+// }
+// console.log(a)
+// console.log(sum)
+
+
+// const number = {
+//     one: 1,
+//     two: 2,
+//     three: 3,
+//     tour: 4,
+//     five: 5,
+//     six: 6,
+//     seven: 7,
+//     eight: 8,
+//     nine: 9,
+//     ten: 10,
+// }
+// for (let num in number) {
+//     console.log(`${num} - ${number[num]}`)
+// }
+
+// const person = {
+//     firstName: 'Paweł',
+//     lastName: 'Drabato',
+//     age: 31,
+//     profession: 'sales'
+// }
+// for (let key in person) {
+//     // console.log(key)
+//     console.log(key == 'age' ? true : false)
+    
+// }
+
+//Sprawdź z użyciem pętli for...in oraz for...of, czy któryś z obiektów zawartych w
+//tablicy posiada właściwość firstName:
+// const arr = [
+// {
+// name: 'Andrzej',
+// age: 30,
+// profession: 'lekarz'
+// },
+// {
+// firstName: 'Wiesiek',
+// age: 60,
+// profession: 'piekarz'
+// },
+// ]
+
+// for (let key of arr) {
+//     // for (let age2 in key)
+//         console.log(key.name)
+        // if (age2 == 'firstName') { console.log(true) }
+// }
+// console.log(age2)
+// console.log(age2)
+
+
+
